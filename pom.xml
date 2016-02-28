@@ -19,15 +19,21 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-core</artifactId>
+            <version>1.4.23</version>
+        </dependency>
+
         <!--<dependency>-->
-            <!--<groupId>io.netty</groupId>-->
-            <!--<artifactId>netty-all</artifactId>-->
-            <!--<version>${netty-version}</version>-->
+        <!--<groupId>io.netty</groupId>-->
+        <!--<artifactId>netty-all</artifactId>-->
+        <!--<version>${netty-version}</version>-->
         <!--</dependency>-->
         <!--<dependency>-->
-            <!--<groupId>org.freemarker</groupId>-->
-            <!--<artifactId>freemarker</artifactId>-->
-            <!--<version>${freemarker-version}</version>-->
+        <!--<groupId>org.freemarker</groupId>-->
+        <!--<artifactId>freemarker</artifactId>-->
+        <!--<version>${freemarker-version}</version>-->
         <!--</dependency>-->
         <!--<dependency>-->
         <!--<groupId>org.yaml</groupId>-->
@@ -73,10 +79,10 @@
         <!--</dependency>-->
 
         <!--<dependency>-->
-            <!--<groupId>com.mashape.unirest</groupId>-->
-            <!--<artifactId>unirest-java</artifactId>-->
-            <!--<version>1.4.5</version>-->
-            <!--<scope>test</scope>-->
+        <!--<groupId>com.mashape.unirest</groupId>-->
+        <!--<artifactId>unirest-java</artifactId>-->
+        <!--<version>1.4.5</version>-->
+        <!--<scope>test</scope>-->
         <!--</dependency>-->
 
         <!--<dependency>-->
